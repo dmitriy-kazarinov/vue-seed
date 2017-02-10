@@ -1,0 +1,12 @@
+h1, h2 {
+  font-weight: normal;
+}
+.reverse {
+  color: #42b983;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active для <2.1.8 */ {
+  opacity: 0
+}
