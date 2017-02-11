@@ -8,7 +8,7 @@ export default {
   },
   data () {
     return {
-      msg: `Welcome to ${this.customText}`
+      msg: `Welcome on a ${this.customText} page`
     }
   }
 }

@@ -4,8 +4,8 @@ export default {
   name: 'home',
   data: function () {
     return {
-      text: 'Your App',
-      message: 'Home',
+      text: 'Home',
+      message: 'Your App',
       show: true
     }
   },
