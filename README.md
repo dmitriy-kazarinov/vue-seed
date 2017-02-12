@@ -1,6 +1,17 @@
 # vue-seed
 
-> Vue seed for development amazing apps
+> The de facto vue-seed repo for building scalable apps with [Vue](https://vuejs.org/), [Vuex](https://vuex.vuejs.org/en/), [ES6](https://git.io/es6features), [Webpack 2](https://webpack.js.org/) and CSS framework [Bulma](http://bulma.io/)
+
+This repo serves as a minimal seed for those looking to get up-and-running with Vue
+
+**This seed is not a Yeoman generator.** It's a starter kit. **These are its features**:
+* Flexible application structure
+* A ready-to-go build system for working with [ES6](https://git.io/es6features)
+* Uses router [Vue router](http://router.vuejs.org/en/)
+* Uses state management pattern [Vuex](https://vuex.vuejs.org/en/)
+* Uses modern CSS framework based on Flexbox [Bulma](http://bulma.io/)
+* Refreshing the browser and rebuilding on file changes
+* Written based on Vue and Vuex documentation
 
 ## Build Setup
 
@@ -33,3 +44,7 @@ Using
 
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+___
+
+enjoy — [**Vue-seed**](https://github.com/dulin666/vue-seed)
