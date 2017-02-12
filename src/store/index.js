@@ -6,10 +6,10 @@ import * as types from './types'
 
 Vue.use(Vuex)
 
-axios.defaults.headers.common['Access-Control-Allow-Origin'] = '*'
+// axios.defaults.headers.common['Access-Control-Allow-Origin'] = '*'
 
-// test data from mocky.io
-const PROJECTS_DATA = 'http://www.mocky.io/v2/589f7450120000d40e78985e'
+// get test data
+const PROJECTS_DATA = 'https://jsonplaceholder.typicode.com/todos'
 
 const options = {
   state: {
