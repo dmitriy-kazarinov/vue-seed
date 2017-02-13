@@ -6,14 +6,16 @@ Vue.use(Router)
 import Home from 'conteiners/home/home.vue'
 import About from 'conteiners/about/about.vue'
 import Projects from 'conteiners/projects/projects.vue'
+import Project from 'conteiners/project/project.vue'
 import NotFound from 'conteiners/notFound/notFound.vue'
 
 // application routes
 const routes = [
-  { path: '/', name: 'Home', component: Home },
-  { path: '/about', name: 'About', component: About },
-  { path: '/projects', name: 'Projects', component: Projects },
-  {path: '*', name: 'NotFound', component: NotFound}
+  { path: '/', name: 'home', component: Home },
+  { path: '/about', name: 'about', component: About },
+  { path: '/projects', name: 'projects', component: Projects },
+  { path: '/projects/:id', name: 'project', component: Project },
+  { path: '*', name: 'notFound', component: NotFound }
 ]
 
 // export router instance
