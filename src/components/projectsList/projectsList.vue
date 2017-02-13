@@ -1,6 +1,7 @@
 <style src="./projectsList.css"></style>
 <script src="./projectsList.js"></script>
 <template>
+
   <table class="table">
     <thead>
       <tr>
@@ -11,10 +12,12 @@
     <tbody>
       <tr
         v-for="project in projects"
-        :class="{'completed': project.completed}">
+        :class="[project.completed ? 'completed' : 'uncompleted', 'project-row']"
+        @click="goToProject(project.id)">
         <td>{{project.title}}</td>
         <td>{{project.completed ? 'Yes' : 'No'}}</td>
       </tr>
     </tbody>
   </table>
+
 </template>

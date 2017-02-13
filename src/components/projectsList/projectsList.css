@@ -1,3 +1,9 @@
 .completed {
-  background: green
+  background: ForestGreen;
+}
+.uncompleted {
+  background: IndianRed;
+}
+.project-row {
+  cursor: pointer;
 }
