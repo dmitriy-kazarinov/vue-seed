@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Vue seed for development",
   "author": "Dmitry Dulin <dulin.developer@gmail.com>",
-  "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
