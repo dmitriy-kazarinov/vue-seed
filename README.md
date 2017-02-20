@@ -1,4 +1,6 @@
-# vue-seed
+# vue-seed [![npm version](https://badge.fury.io/js/vue-seed.svg)](http://badge.fury.io/js/vue-seed)
+
+[![NPM](https://nodei.co/npm/vue-seed.png?downloads=true)](https://nodei.co/npm/vue-seed/)
 
 > The de facto vue-seed repo for building scalable apps with [Vue](https://vuejs.org/), [Vuex](https://vuex.vuejs.org/en/), [ES6](https://git.io/es6features), [Webpack 2](https://webpack.js.org/) and CSS framework [Bulma](http://bulma.io/)
 
